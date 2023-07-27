@@ -4,179 +4,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Resume</title>
   </head>
   <body>
-    <!-- Header -->
-
-    <header class="header">
-      <nav class="header-nav">
-        <a class="logo" href="./index.html">WebStudio</a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="./studio.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-info">
-        <li class="header-info-item">
-          <a class="header-info-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-info-item">
-          <a class="header-info-link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
-    </header>
     <main class="main">
-      <!-- Hero -->
 
-      <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
-      </section>
+      <!-- Contacts -->
 
-      <!-- Our features -->
+        <section class="info">
+          <!-- <img src="" alt=""> -->
+          <div class="fake-img"></div>
+          <div class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li><p>095-257-60-15</p></li>
+              <li><a href="https://t.me/ellisarrar">Telegram</a></li>
+              <li><p>e.shchyrova@gmail.com</p></li>
+              <li><a href="">LinkedIn</a></li>
+              <li><a href="https://github.com/elisbet017">GitHub</a></li>
+              <li><p>Rzeszów, Poland</p></li>
+            </ul>
+          </div>
+          <div class="tech-skills">
+            <h2>Tech skills</h2>
+            <ul>
+              <li>
+                <p>HTML, CSS</p>
+              </li>
+              <li>
+                <p>Responsive, Adaptive design</p>
+              </li>
+              <li>
+                <p>JavaScript</p>
+              </li>
+              <li>
+                <p>React</p>
+              </li>
+              <li>
+                <p>GIT</p>
+              </li>
+              <li>
+                <p>REST API</p>
+              </li>
+              <li>
+                <p>Parcel</p>
+              </li>
+              <li>
+                <p>Webpack</p>
+              </li>
+            </ul>
+          </div>
+          <div class="soft-skills">
+            <h2>Soft skills</h2>
+            <ul>
+              <li>
+                <p>Like challenging task</p>
+              </li>
+              <li>
+                <p>Organized</p>
+              </li>
+              <li>
+                <p>Responsible</p>
+              </li>
+              <li>
+                <p>Communicable</p>
+              </li>
+            </ul>
+          </div>
+          <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>
+                <p>English - Pre-Intermediate</p>
+              </li>
+              <li>
+                <p>Polish - Upper-Intermediate</p>
+              </li>
+              <li>
+                <p>Ukrainian - Native</p>
+              </li>
+              <li>
+                <p>Russian - Native</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+  
+        <!-- About -->
+        <section class="about">
+          <div class="name">
+            <h1>Yelyzaveta Shchyrova</h1>
+          <p>Junior frontend developer</p>
+          </div>
+          <div class="summary">
+            <h2>Summary</h2>
+            <p>I love my job and everything about it. I'm passionate about learning programming languages, methodologies and frameworks. I like challenging tasks that bring a lot of experience. I worked with Scrum and Agile methodologies. I never stop and I constantly improve my knowledge and skills, both technical and teamwork.</p>
+          </div>
+          <div class="project-exp">
+            <h2>Project experience</h2>
+            <ul>
+              <li>
+                <p>
+                  <a href=""></a>,<a href=""></a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="work-exp"></div>
+          <div class="education">
+            <h2>Education</h2>
+            <ul></ul>
+          </div>
+        </section>
 
-      <section class="our-features">
-        <h2 class="our-features-title">Our features</h2>
-        <ul class="our-features-list">
-          <li class="our-features-item">
-            <h3 class="our-features-subtitle">Strategy</h3>
-            <p class="our-features-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="our-features-item">
-            <h3 class="our-features-subtitle">Punctuality</h3>
-            <p class="our-features-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="our-features-item">
-            <h3 class="our-features-subtitle">Diligence</h3>
-            <p class="our-features-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="our-features-item">
-            <h3 class="our-features-subtitle">Technologies</h3>
-            <p class="our-features-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <!-- What are we doing -->
-
-      <section class="offers">
-        <h2 class="offers-title">What are we doing</h2>
-        <ul class="offers-list">
-          <li class="offers-item">
-            <img
-              class="offers-img"
-              src="./images/img1.jpg"
-              alt="A handy site on your computer"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="offers-item">
-            <img
-              class="offers-img"
-              src="./images/img2.jpg"
-              alt="Chats on your phone"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="offers-item">
-            <img
-              class="offers-img"
-              src="./images/img3.jpg"
-              alt="Synchronizing your phone and computer"
-              width="360"
-              height="300"
-            />
-          </li>
-        </ul>
-      </section>
-
-      <!-- Our team -->
-
-      <section class="our-team">
-        <h2 class="our-team-title">Our Team</h2>
-        <ul class="our-team-list">
-          <li class="our-team-item">
-            <img
-              class="our-team-img"
-              src="./images/img.jpg"
-              alt="Worker 1"
-              width="264"
-              height="260"
-            />
-            <h3 class="our-team-subtitle">Mark Guerrero</h3>
-            <p class="our-team-text">Product Designer</p>
-          </li>
-          <li class="our-team-item">
-            <img
-              class="our-team-img"
-              src="./images/img01.jpg"
-              alt="Worker 2"
-              width="264"
-              height="260"
-            />
-            <h3 class="our-team-subtitle">Tom Ford</h3>
-            <p class="our-team-text">Frontend Developer</p>
-          </li>
-          <li class="our-team-item">
-            <img
-              class="our-team-img"
-              src="./images/img02.jpg"
-              alt="Worker 3"
-              width="264"
-              height="260"
-            />
-            <h3 class="our-team-subtitle">Camila Garcia</h3>
-            <p class="our-team-text">Marketing</p>
-          </li>
-          <li class="our-team-item">
-            <img
-              class="our-team-img"
-              src="./images/img03.jpg"
-              alt="Worker 4"
-              width="264"
-              height="260"
-            />
-            <h3 class="our-team-subtitle">Daniel Wilson</h3>
-            <p class="our-team-text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
     </main>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-      <a class="logo" href="./index.html">WebStudio</a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
   </body>
 </html>

@@ -1,0 +1,50 @@
+body {
+  /* font-family: 'Inter'; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li, ul, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  max-width: 500px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  display: flex;
+}
+
+.info {
+  background-color: #dbb799;
+  padding-top: 72px;
+  margin-left: 72px;
+}
+
+.about {
+  /* background-color: #74bbb9; */
+  padding-top: 72px;
+  margin-left: 100px;
+  width: calc(100% - 350px - 172px);
+}
+
+.summary, .project-exp, .work-exp, .education {
+  background-color: #ff7878;
+}
+
+.fake-img {
+  width: 350px;
+  height: 350px;
+  background-color: #b1b1b1;
+}
