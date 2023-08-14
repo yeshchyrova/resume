@@ -19,7 +19,7 @@ a {
 
 h1 {
   font-weight: 700;
-  font-size: 64px;
+  font-size: 76px;
   max-width: 500px;
 }
 
@@ -30,11 +30,11 @@ h2 {
 
 h2 {
   margin-bottom: 25px;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 21px;
   max-width: 850px;
 }
 
@@ -51,13 +51,17 @@ main {
   margin-left: 72px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
 }
 
 .contacts ul, .tech-skills ul, .soft-skills ul, .languages ul {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.contacts a {
+  font-size: 18px;
 }
 
 .about {
@@ -95,8 +99,8 @@ main {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px 15px;
-  gap: 25px;
+  padding: 40px 20px;
+  gap: 40px;
 }
 
 .avatar {
