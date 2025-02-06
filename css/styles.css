@@ -75,19 +75,19 @@ main {
 }
 
 .name p {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .education ul, .project-exp ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 32px;
 }
 
 .education li, .project-exp li {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 12px;
 }
 
 .educ-place {
@@ -107,3 +107,9 @@ main {
   width: 350px;
   height: 350px;
 }
+
+/* .exp {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+} */
