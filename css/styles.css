@@ -46,6 +46,10 @@ main {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
+
 .info {
   padding-top: 72px;
   margin-left: 72px;
