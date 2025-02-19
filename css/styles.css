@@ -19,8 +19,8 @@ a {
 
 h1 {
   font-weight: 700;
-  font-size: 76px;
-  max-width: 500px;
+  font-size: 52px;
+  /* max-width: 500px; */
 }
 
 h1,
@@ -35,7 +35,7 @@ h2 {
 
 p {
   font-size: 21px;
-  max-width: 850px;
+  /* max-width: 850px; */
 }
 
 ul {
@@ -54,19 +54,23 @@ main {
   gap: 50px;
 }
 
-.contacts ul, .tech-skills ul, .soft-skills ul, .languages ul {
+.contacts ul, .tech-skills ul, .soft-skills ul, .languages ul, .certificates ul {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.contacts a {
-  font-size: 18px;
+.certificates ul {
+  gap: 8px;
+}
+
+.contacts a, .certificates a {
+  font-size: 20px;
 }
 
 .about {
   padding-top: 72px;
-  margin-left: 150px;
+  margin-left: 100px;
   width: calc(100% - 350px - 172px);
 }
 
@@ -77,6 +81,7 @@ main {
 .name p {
   font-size: 28px;
 }
+
 
 .education ul, .project-exp ul {
   display: flex;
@@ -103,13 +108,14 @@ main {
   gap: 40px;
 }
 
+
 .avatar {
   width: 350px;
   height: 350px;
 }
 
-/* .exp {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-} */
+.project-name {
+  font-weight: 700;
+  color: #136271;
+  text-decoration-line: none;
+}
